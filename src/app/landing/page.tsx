@@ -15,15 +15,17 @@ const page = () => {
     return (
         <div>
             <Navbar />
-            <Hero />
-            <VideoContent />
-            <Icons />
-            <Features />
-            <Metrics />
-            <Feedbacks />
-            <Team />
-            <LandingPageUI />
-            <GetInTouch />
+            <div className='max-w-[1500px] mx-auto'>
+                <Hero />
+                <VideoContent />
+                <Icons />
+                <Features />
+                <Metrics />
+                <Feedbacks />
+                <Team />
+                <LandingPageUI />
+                <GetInTouch />
+            </div>
             <Footer />
         </div>
     )

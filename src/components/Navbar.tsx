@@ -10,12 +10,12 @@ const Navbar = () => {
                 <div>
                     <img src={logo.src} alt="" />
                 </div>
-                <div className='text-xl text-[#2D2D2D]'>
+                <div className='text-xl text-[#2D2D2D] hidden md:block'>
                     <span className='font-bold'>Landing</span>
                     <span>Page</span>
                 </div>
             </div>
-            <div className='flex gap-10'>
+            <div className='gap-10 hidden sm:flex'>
                 <div className='flex items-center font-semibold gap-4 text-[#009379]'>
                     <div>
                         Contact
@@ -24,7 +24,7 @@ const Navbar = () => {
                         How it works
                     </div>
                 </div>
-                <div>
+                <div className=''>
                     <Button className='bg-[#009379] text-white'>
                         <span>
                             <img src={rocket.src} alt="" />

@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const Footer = () => {
     return (
-        <div className="w-full bg-[#2d2d2d] flex items-center justify-between p-5">
+        <div className="w-full bg-[#2d2d2d] flex flex-col gap-5 sm:flex-row items-center justify-between p-5">
             <div className="text-white text-xs font-thin">
                 ©  2025  Anima’s Landing Page Ui Kit.
             </div>

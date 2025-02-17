@@ -5,8 +5,8 @@ import rocket from '/public/RocketLaunch.png'
 const LandingPageUI = () => {
     return (
         <div className="h-[70vh]" >
-            <div className="w-[90%] h-[90%] bg-[#F2BFAF] mx-auto flex flex-col items-center rounded-xl relative overflow-hidden">
-                <div className="w-full flex flex-col items-center justify-center gap-8 mt-10">
+            <div className="w-[95%] h-[90%] bg-[#F2BFAF] mx-auto flex flex-col items-center rounded-xl relative overflow-hidden">
+                <div className="w-full flex flex-col items-center justify-center gap-8 mt-14 sm:mt-10 px-5">
                     <div className="text-[#2d2d2d] text-center flex flex-col gap-6">
                         <div className="text-5xl font-bold">
                             Get Landing Page UI Kit Today!
@@ -26,16 +26,15 @@ const LandingPageUI = () => {
                         </Button>
                     </div>
                 </div>
-                <div>
-                    <div className="bg-white p-5 rounded-xl drop-shadow-2xl absolute left-[20%] -bottom-5 mt-10">
-                        <div className="absolute top-2 left-[46%] flex items-center gap-3">
-                            <div className="h-[6px] w-[6px] bg-[#cecece] rounded-xl " />
-                            <div className="h-[6px] w-[60px] bg-[#cecece] rounded-xl " />
-                            <div className="h-[6px] w-[6px] bg-[#cecece] rounded-xl " />
-                        </div>
-                        <img src={pic.src} alt="" />
+                <div className="bg-white p-5 rounded-xl drop-shadow-2xl absolute left-[5%] right-[5%] md:left-[10%] md:right-[10%] lg:left-[15%] lg:right-[15%]  xl:left-[20%] xl:right-[20%] -bottom-5 sm:mt-10">
+                    <div className="absolute top-2 left-[46%] flex items-center gap-3">
+                        <div className="h-[6px] w-[6px] bg-[#cecece] rounded-xl " />
+                        <div className="h-[6px] w-[60px] bg-[#cecece] rounded-xl " />
+                        <div className="h-[6px] w-[6px] bg-[#cecece] rounded-xl " />
                     </div>
+                    <img src={pic.src} alt="" />
                 </div>
+
             </div>
         </div>
     )

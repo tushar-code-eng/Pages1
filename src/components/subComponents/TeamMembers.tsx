@@ -3,7 +3,7 @@ import React from 'react'
 
 const TeamMembers = ({ pic, name, role, desc, handles }: { pic: StaticImageData, name: string, role: string, desc: string, handles: string[] }) => {
     return (
-        <div className='flex flex-col items-center justify-center w-64'>
+        <div className='flex flex-col items-center justify-center w-full md:w-[80%] xl:w-80 p-10 shadow-xl rounded-xl'>
             <div>
                 <img src={pic.src} alt="" />
             </div>
