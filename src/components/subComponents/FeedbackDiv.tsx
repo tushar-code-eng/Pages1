@@ -1,6 +1,6 @@
 import { StaticImageData } from 'next/image'
 import React from 'react'
-import star from "/public/star.png"
+import star from "/public/Star.png"
 
 
 const FeedbackDiv = ({ pic, name, role, stars, desc }: { pic: StaticImageData, name: string, role: string, stars: number, desc: string }) => {
