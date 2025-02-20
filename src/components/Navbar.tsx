@@ -6,7 +6,7 @@ import { ClapIcon } from './ui/clap'
 
 const Navbar = () => {
     return (
-        <div className='w-full flex items-center justify-between px-6 py-4'>
+        <div className='w-full flex items-center bg-transparent justify-between px-6 py-4'>
             <div className='flex items-center'>
                 <ClapIcon />
                 <div className='text-xl text-[#2D2D2D] hidden md:block'>
